@@ -6,6 +6,13 @@ body {
 	margin-left: 110px;
 }	
 
+header {
+	background-color: white;
+	padding-bottom: 0px;
+	margin: 0px;
+	margin-bottom: 20px;
+}
+
 .h1name {
 	background-color: #4aaaa5;
 	color: white;
@@ -22,6 +29,7 @@ body {
 	font-size: 16px;
 	display: inline-block;
 	float: right;
+	padding-right: 7%;
 }
 
 img {
@@ -34,6 +42,7 @@ img {
 	margin: 0px;
 	display: inline-block;
 	background-color: white;
+	color: teal;
 }
 
 aside {
@@ -47,14 +56,42 @@ aside {
 	font-size: 20px;
 }
 
+.linkedin {
+	float: right;
+	text-align: center;
+}
+
 .section2 {
 	width: 650px;
 	background-color: white;
+	color: teal;
 }
 
 .section3 {
 	width: 650px;
 	background-color: white;
+	margin-bottom: 20px;
+	color: teal;
+}
+
+.se1, .se2, .se3, .se4, .se5, .se6 {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: white;
+	font-size: 20px;
+}
+
+.se1, .se3, .se5 {
+	float: left;
+	padding: 20px;
+	margin: 20px;
+	background-color: violet;
+}
+
+.se2, .se4, .se6 {
+	float:right;
+	padding: 20px;
+	margin: 20px;
+	background-color: violet;
 }
 
 footer {
@@ -64,5 +101,5 @@ footer {
 	float: bottom;
 	clear: both;
 	text-align: center;
-	font-size: 12px;	
+	font-size: 12px;
 }
